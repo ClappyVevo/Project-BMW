@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>BMW | LOGIN</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <header>
+            <h1>BMW</h1>
+            <nav>
+                
+                <a href="moto1.html">Home</a>
+            </nav>
+            
+        </header>
+        <div class="Form-box">
+            <form class="Login-form" action="moto1.html" method="post">
+                <h1>Login</h1>
+                <div class="input-box">
+                <input type="text" required id="email" class="form-control" name="email">
+                <label>Email</label>
+                <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="password" required id="password" class="form-control" name="password">
+                    <label>Mot de Passe</label>
+                    <ion-icon name = "lock-closed-outline"></ion-icon>
+                </div>
+
+                <div class="checkbox">
+                    <span>
+                        <input type="checkbox" id="login-checkbox">
+                        <label for="login-checkbox">Agree</label>
+                    </span>
+
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <h4 class="Register-btn">Creer un compte</h4>
+
+            </form>
+
+            <form class="Register-form">
+                <h1>Register</h1>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <ion-icon name="person-outline"></ion-icon>
+
+                </div>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Mot de passe</label>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="register-checkbox">
+                    <label for="register-checkbox"> Agree</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Creer un compte</button>
+                <h4 class="Login-btn">Se connecter</h4>
+            </form>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
